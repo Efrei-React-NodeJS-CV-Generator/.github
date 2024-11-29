@@ -97,7 +97,7 @@ frontend/
    npm install
    ```
 3. Configurez les variables d'environnement :  
-   - Configurez les variables d'environement dans le fichier `.env`.
+   - Configurez les variables d'environnement dans le fichier `.env`.
    - (les valeurs à renseigner dans le .env sont disponible dans le readMe du repository cvGeneratorAPI)
 
 4. Démarrez le serveur :  
@@ -119,7 +119,7 @@ frontend/
 
 3. Configurez les variables d'environnement :  
    - Configurez les variables d'environement dans le fichier `.env`.
-   - (les valeurs à renseigner dans le .env sont disponible dans le readMe du repository cvGeneratorFront)
+   - (les valeurs à renseigner dans le .env sont disponibles dans le readMe du repository cvGeneratorFront)
    
 3. Démarrez l'application React :  
    ```bash
@@ -141,24 +141,24 @@ frontend/
 ### **Gestion des CV :**  
 - `POST /api/cv/createCv` : Créer un nouveau CV.  
 - `GET /api/cv/getAllPubliccv` : Lister les CV publics.  
-- `Patch /api/cv/update/:id` : Modifier un CV.
+- `PATCH /api/cv/update/:id` : Modifier un CV.
 - `GET /api/cv/:id` : Récupérer un cv par ID.  
 - `DELETE /api/cv/:id` : Supprimer un CV.  
 
 ### **Avis :**  
 - `POST /api/avis/:cvId` : Ajouter une recommandation à un CV.
-- `PACTH /api/avis/:id` : Mise à jour d'un cv.  
+- `PATCH /api/avis/:id` : Mise à jour d'un cv.  
 - `DELETE /api/avis/:id` : Suppression d'un avis.
 
 - ### **User :**  
 - `GET /api/user/:id` : Afficher les infos d'un user.
-- `PACTH /api/user/:id` : Mise à jour d'un user.  
+- `PATCH /api/user/:id` : Mise à jour d'un user.  
 - `DELETE /api/user/:id` : Suppression d'un user.  
 
 ## ✨ **Contributeurs**  
 - **Mathias** : Backend - Deploiement 
 - **Valérie** : Backend - Frontend
-- **Ludovic** : Frontend - deploiement
+- **Ludovic** : Frontend - Deploiement
 
 ---
 
