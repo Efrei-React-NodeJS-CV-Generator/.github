@@ -89,7 +89,7 @@ frontend/
 
 1. Clonez le repository backend :  
    ```bash
-   git clone https://github.com/Mathias002/cvGeneratorAPI
+   git clone https://github.com/Mathias002/cvGeneratorAPI.git
    cd cvGeneratorAPI
    ```
 2. Installez les dépendances :  
@@ -109,7 +109,7 @@ frontend/
 
 1. Clonez le repository frontend :  
    ```bash
-   git clone https://github.com/Mathias002/cvGeneratorFront
+   git clone https://github.com/Mathias002/cvGeneratorFront.git
    cd cvGeneratorFront
    ```
 2. Installez les dépendances :  
